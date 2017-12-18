@@ -27,3 +27,8 @@ Default version of complied js code is es6. If you want to transform it to es5 (
 1. No `<any>` except of `types` folder.
 1. Avoid `<any>` in `types` folder as much as possible.
 1. Not add prefix `I` to interface declare which in `types`
+
+## TODO
+1. Code spliting with import()
+2. Redux-observable
+

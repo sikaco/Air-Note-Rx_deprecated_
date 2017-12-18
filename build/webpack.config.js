@@ -68,7 +68,6 @@ config.module.rules.push({
     query: {
       cacheDirectory: true,
       plugins: [
-        'babel-plugin-syntax-dynamic-import',
         [
           'babel-plugin-transform-runtime',
           {
@@ -77,22 +76,7 @@ config.module.rules.push({
             regenerator: true,
           },
         ],
-        [
-          'babel-plugin-transform-object-rest-spread',
-          {
-            useBuiltIns: true // we polyfill Object.assign in src/normalize.js
-          },
-        ],
       ],
-      presets: [
-        ['babel-preset-env', {
-          modules: false,
-          targets: {
-            ie9: true,
-          },
-          uglify: true,
-        }],
-      ]
     },
   }]
 })
