@@ -1,7 +1,7 @@
 {
-  "name": "react-redux-starter-kit",
-  "version": "3.0.1",
-  "description": "Get started with React, Redux, and React-Router!",
+  "name": "air-note-rx",
+  "version": "0.0.0",
+  "description": "A note app just like air, concise but necessary.",
   "main": "index.js",
   "scripts": {
     "clean": "rimraf dist",
@@ -13,33 +13,44 @@
     "lint": "tslint \"./src/**/*.ts?(x)\" || true",
     "lint:fix": "npm run lint -- --fix"
   },
+  "keywords": [
+    "react",
+    "redux",
+    "redux-observable",
+    "typescript",
+    "note",
+    "app"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davezuko/react-redux-starter-kit.git"
+    "url": "git+git@github.com:sikaco/Air-Note-Rx.git"
   },
-  "author": "David Zukowski <david@zuko.me> (http://zuko.me)",
+  "author": "Sikaco <sikaco@gmail.com> (http://sikaco.github.io)",
   "license": "MIT",
   "dependencies": {
     "compression": "^1.6.2",
     "express": "^4.14.0",
     "lodash": "^4.17.4",
-    "moment": "^2.18.1",
-    "promise": "^7.1.1",
+    "moment": "^2.20.0",
+    "promise": "^8.0.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-redux": "^5.0.4",
-    "react-router": "^3.0.0",
-    "redbox-react": "^1.3.6",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-redux": "^4.0.8",
+    "redbox-react": "^1.5.0",
     "redux": "^3.6.0",
-    "redux-thunk": "^2.2.0",
-    "whatwg-fetch": "^2.0.3"
+    "redux-observable": "^0.17.0",
+    "rxjs": "^5.5.5"
   },
   "devDependencies": {
-    "@types/lodash": "^4.14.89",
+    "@types/lodash": "^4.14.91",
+    "@types/promise": "^7.1.30",
     "@types/react": "^16.0.30",
     "@types/react-dom": "^16.0.3",
     "@types/react-redux": "^5.0.14",
     "@types/react-router": "^3.0.0",
+    "@types/react-router-redux": "^5.0.10",
     "@types/webpack-env": "^1.13.3",
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
@@ -72,6 +83,7 @@
     "postcss-loader": "^2.0.6",
     "react-addons-test-utils": "^15.5.1",
     "react-test-renderer": "^15.5.4",
+    "redux-devtools": "^3.4.1",
     "rimraf": "^2.6.1",
     "sass-loader": "^6.0.5",
     "sinon": "^2.2.0",

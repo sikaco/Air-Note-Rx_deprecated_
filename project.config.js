@@ -29,7 +29,13 @@ module.exports = {
     'react-dom',
     'redux',
     'react-redux',
-    'redux-thunk',
     'react-router',
+    'react-router-redux',
+    'redux-observable',
+    'rxjs',
+
+    // There no these libs before, I don't know why
+    'promise',
+    'redbox-react'
   ],
 }
