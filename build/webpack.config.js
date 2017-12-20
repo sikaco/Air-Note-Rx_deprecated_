@@ -2,7 +2,7 @@ const path = require('path')
 const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
-const HappyPack = require('happypack')
+const HappyPack = require('happypack')  // todo:
 const project = require('../project.config')
 const alias = require('./webpack.alias')
 
