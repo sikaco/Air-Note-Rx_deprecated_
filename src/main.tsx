@@ -1,10 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import { createStore } from 'redux'
+import { Provider } from 'react-redux'
+
+import { App } from './components/App'
+import { rootReducer } from './store/reducers'
 import './styles/main.scss'
 
 // Store Initialization
 // ------------------------------------
-// const store = createStore(window.__INITIAL_STATE__)
+
+const store = createStore(rootReducer)
 
 // Render Setup
 // ------------------------------------
@@ -15,9 +21,9 @@ let render = () => {
   // const routes = require('./routes/index').default(store)
 
   ReactDOM.render(
-    <div>
-      Hello world
-    </div>,
+    <Provider store={store}>
+      <App />
+    </Provider>,
     MOUNT_NODE
   )
 }

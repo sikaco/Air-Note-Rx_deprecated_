@@ -2,6 +2,8 @@
   "compilerOptions": {
     "outDir": "dist",
     "sourceMap": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
     "noImplicitAny": true,
     "noImplicitReturns": true,
     "module": "es2015",
