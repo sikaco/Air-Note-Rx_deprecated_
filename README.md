@@ -1,3 +1,6 @@
+This project is /deprecated/, no longer be maintained any more。
+
+---
 # AirNote
 
 A note app just like air, concise but necessary.
