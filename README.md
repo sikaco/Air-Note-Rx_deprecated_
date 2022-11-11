@@ -1,4 +1,4 @@
-This project is *deprecated*, no longer be maintained any more。
+This project is *deprecated*, no longer be maintained。
 
 ---
 # AirNote
